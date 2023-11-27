@@ -18,7 +18,7 @@ botl.addEventListener('input', updateShape);
 botr.addEventListener('input', updateShape);
 
 function copyValuesToClipboard() {
-    const valuesToCopy = `border-radius: ${topl.value}px ${topr.value}px ${botr.value}px ${botl.value}px`;
+    const valuesToCopy = `border-radius: ${topl.value}px ${topr.value}px ${botr.value}px ${botl.value}px;`;
     
     const textarea = document.createElement("textarea");
     textarea.value = valuesToCopy;
